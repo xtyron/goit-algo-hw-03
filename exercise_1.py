@@ -1,6 +1,6 @@
 from datetime import datetime
 
-def get_days_from_today(date : datetime):
+def get_days_from_today(date : str):
     current_date = datetime.now()
     target_date = date
     current_date_days = current_date.toordinal()
